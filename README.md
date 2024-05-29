@@ -17,16 +17,16 @@ This project implements path planning algorithms for an n-link planar serial man
 ## Usage
 
 1. Open MATLAB and navigate to the project directory.
-2. Open the `t1_main.m` script.
+2. Open the `main.m` script.
 3. Modify the workspace dimensions, obstacles, number of links, link lengths, initial configuration, and goal configuration as desired.
-4. Run the `t1_main.m` script to execute the path planning algorithms.
+4. Run the `main.m` script to execute the path planning algorithms.
 5. The script will generate plots of the workspace, obstacles, initial and goal configurations, and the planned paths for both RRT and PRM algorithms.
 6. The generated paths will be saved as video files named `rrt_movie.mp4` and `prm_movie.mp4` in the project directory.
 
 ## Results
 The project successfully plans collision-free paths for the planar serial manipulator using both RRT and PRM algorithms. The planned paths are visualized in the generated plots and saved as video files for further analysis.
-![Demonstration of RRT](images/RRT_Results.png)
-![Demonstration of PRM](images/PRM_Results.png)
+![Demonstration of RRT](images/RRT_Result.png)
+![Demonstration of PRM](images/PRM_Result.png)
 ## Limitations and Future Work
 
 - The current implementation assumes fully rotary joints and does not consider self-collisions between the links.
