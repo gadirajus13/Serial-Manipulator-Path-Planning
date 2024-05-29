@@ -25,7 +25,8 @@ This project implements path planning algorithms for an n-link planar serial man
 
 ## Results
 The project successfully plans collision-free paths for the planar serial manipulator using both RRT and PRM algorithms. The planned paths are visualized in the generated plots and saved as video files for further analysis.
-
+![Demonstration of RRT](images/RRT_Results.png)
+![Demonstration of PRM](images/PRM_Results.png)
 ## Limitations and Future Work
 
 - The current implementation assumes fully rotary joints and does not consider self-collisions between the links.
