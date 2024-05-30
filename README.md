@@ -5,7 +5,7 @@ This project implements path planning algorithms for an n-link planar serial man
 
 ## Project Structure
 
-- `t1_main.m`: The main script that sets up the workspace, obstacles, and manipulator parameters, and calls the path planning functions.
+- `main.m`: The main script that sets up the workspace, obstacles, and manipulator parameters, and calls the path planning functions.
 - `manipulator_RRT.m`: Implementation of the RRT algorithm for path planning.
 - `manipulator_PRM.m`: Implementation of the PRM algorithm for path planning.
 - `dijkstra.m`: Implementation of Dijkstra's shortest path algorithm for finding the optimal path in the constructed graphs.
